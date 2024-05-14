@@ -72,8 +72,8 @@ function MonthlyTab({
         justifyContent={"space-between"}
       >
         <Box display={"flex"} flexDirection={"row"}>
-          <Tab>{tab1}</Tab>
           <Tab>{tab2}</Tab>
+          <Tab>{tab1}</Tab>
         </Box>
 
         <Box
