@@ -21,7 +21,7 @@ function BudgetBreakdown() {
       <Stack marginTop="40px" pb={"5"} spacing={"30px"}>
         {showRenderedBudget ? (
           showRenderedBudget.map((categoryItem) => (
-            <Flex gap={"70px"}>
+            <Flex key={categoryItem.id} gap={"70px"}>
               <Box>
                 <Box className="absolute">
                   <CircularProgress

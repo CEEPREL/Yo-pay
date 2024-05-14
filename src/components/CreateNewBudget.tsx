@@ -246,7 +246,10 @@ function CreateNewBudget() {
               </div>
               <div className="flex flex-col mt-5 gap-6">
                 {showRenderedBudget.map((budgetItem) => (
-                  <div className="flex  flex-row justify-between">
+                  <div
+                    key={budgetItem.id}
+                    className="flex  flex-row justify-between"
+                  >
                     <div className="flex flex-row">
                       <div>
                         <budgetItem.svg />
@@ -275,7 +278,7 @@ function CreateNewBudget() {
             </h1>
             <div className="pl-4">
               <h5 className="text-gray-500 w-[70%] italic text-[15px] px-4">
-                press "done" to go to budget page
+                press done to go to budget page
               </h5>
             </div>
           </>
