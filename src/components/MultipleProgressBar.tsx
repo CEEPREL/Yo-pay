@@ -100,7 +100,7 @@ const OutterLabel = ({
 
 const CenterContent = () => (
   <Box maxH={"0px"} bg={"black"} maxW={"0x"}>
-    <svg transform="translate(130, -220)">
+    {/* <svg transform="translate(130, -220)">
       <Settings />
     </svg>
     <svg transform="translate(95, -330)">
@@ -117,7 +117,7 @@ const CenterContent = () => (
     </svg>
     <svg transform="translate(185, -940)">
       <SavingsSvg />
-    </svg>
+    </svg> */}
   </Box>
   // </Box>
 );
